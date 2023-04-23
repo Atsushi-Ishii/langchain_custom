@@ -116,6 +116,7 @@ class PromptGenerator:
             f"{self._generate_numbered_list(self.performance_evaluation)}\n\n"
             f"You should only respond in JSON format as described below "
             f"\nResponse Format: \n{formatted_response_format} "
+            f"\nWrite in Japanese."
             f"\nEnsure the response can be parsed by Python json.loads"
         )
 
